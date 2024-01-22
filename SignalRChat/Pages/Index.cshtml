@@ -13,4 +13,23 @@
             <input type="button" id="sendButton" value="Send Message" />
         </div>
     </div>
+    <div class="row p-1">
+        <div class="col-6">
+            <hr />
+        </div>
+    </div>
+    <div class="row p-1">
+        <div class="col-6">
+            <ul id="messagesList"></ul>
+        </div>
+    </div>
 </div>
+<script src="~/js/signalr/dist/browser/signalr.js"></script>
+<script src="~/js/chat.js"></script>
+
+/*
+Markup:
+- creates text boxes
+- lists messages received from SignalR hub - id="messagesList"
+- reference script to SignalR and chat.js
+*/
