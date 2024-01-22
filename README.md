@@ -9,6 +9,7 @@
 
 ### SignalR Hubs
 - SignalR uses hubs which enables communication between clients and servers
+- a hub is a class that serves as high level pipeline to handle client-server comms
 
 
 - Add libman to current session only:
