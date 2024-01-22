@@ -9,3 +9,7 @@
 
 ### SignalR Hubs
 - SignalR uses hubs which enables communication between clients and servers
+
+
+- Add libman to current session only:
+- `export PATH="$PATH:/home/sadik/.dotnet/tools"`
