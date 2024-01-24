@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XrYZ58ghU3M8R5CMR6PWRVNPivAXTBTndCcpazRpwZm632MN/mesd3WvLTPWckPhOp9WXlR9bwDlaVb9QY1qGQ==",
+  "dgSpecHash": "TSfEEgZdvz0yvSs5SCFnbDQ1MA68UzAXXrQiGhOIUzmdfaTgr8GC78Wj/3coEileS8EoZpxVQazD44Ayvmhxpw==",
   "success": true,
-  "projectFilePath": "/home/sadik/Documents/projects/Chat-Application/SignalRChat/SignalRChat.csproj",
-  "expectedPackageFiles": [
-    "/home/sadik/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.1/microsoft.aspnetcore.app.ref.8.0.1.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\Sadik\\Documents\\projects\\Chat-Application\\SignalRChat\\SignalRChat.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

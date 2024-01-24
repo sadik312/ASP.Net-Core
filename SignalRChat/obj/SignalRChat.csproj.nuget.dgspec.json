@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/home/sadik/Documents/projects/Chat-Application/SignalRChat/SignalRChat.csproj": {}
+    "C:\\Users\\Sadik\\Documents\\projects\\Chat-Application\\SignalRChat\\SignalRChat.csproj": {}
   },
   "projects": {
-    "/home/sadik/Documents/projects/Chat-Application/SignalRChat/SignalRChat.csproj": {
+    "C:\\Users\\Sadik\\Documents\\projects\\Chat-Application\\SignalRChat\\SignalRChat.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/sadik/Documents/projects/Chat-Application/SignalRChat/SignalRChat.csproj",
+        "projectUniqueName": "C:\\Users\\Sadik\\Documents\\projects\\Chat-Application\\SignalRChat\\SignalRChat.csproj",
         "projectName": "SignalRChat",
-        "projectPath": "/home/sadik/Documents/projects/Chat-Application/SignalRChat/SignalRChat.csproj",
-        "packagesPath": "/home/sadik/.nuget/packages/",
-        "outputPath": "/home/sadik/Documents/projects/Chat-Application/SignalRChat/obj/",
+        "projectPath": "C:\\Users\\Sadik\\Documents\\projects\\Chat-Application\\SignalRChat\\SignalRChat.csproj",
+        "packagesPath": "C:\\Users\\Sadik\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Sadik\\Documents\\projects\\Chat-Application\\SignalRChat\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/sadik/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Sadik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -48,12 +50,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.1, 8.0.1]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -62,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
