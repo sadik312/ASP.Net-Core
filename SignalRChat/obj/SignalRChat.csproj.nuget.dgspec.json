@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Sadik\\Documents\\projects\\Chat-Application\\SignalRChat\\SignalRChat.csproj": {}
+    "/home/sadik/Documents/projects/Chat-Application/SignalRChat/SignalRChat.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Sadik\\Documents\\projects\\Chat-Application\\SignalRChat\\SignalRChat.csproj": {
+    "/home/sadik/Documents/projects/Chat-Application/SignalRChat/SignalRChat.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sadik\\Documents\\projects\\Chat-Application\\SignalRChat\\SignalRChat.csproj",
+        "projectUniqueName": "/home/sadik/Documents/projects/Chat-Application/SignalRChat/SignalRChat.csproj",
         "projectName": "SignalRChat",
-        "projectPath": "C:\\Users\\Sadik\\Documents\\projects\\Chat-Application\\SignalRChat\\SignalRChat.csproj",
-        "packagesPath": "C:\\Users\\Sadik\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sadik\\Documents\\projects\\Chat-Application\\SignalRChat\\obj\\",
+        "projectPath": "/home/sadik/Documents/projects/Chat-Application/SignalRChat/SignalRChat.csproj",
+        "packagesPath": "/home/sadik/.nuget/packages/",
+        "outputPath": "/home/sadik/Documents/projects/Chat-Application/SignalRChat/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Sadik\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/sadik/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -39,6 +37,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.SignalR.Client": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -50,6 +54,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.1, 8.0.1]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -58,7 +68,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

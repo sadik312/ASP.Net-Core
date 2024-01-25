@@ -6,10 +6,12 @@ namespace SignalRChat.Hubs
     // hub class manages connections, groups, messaging
     public class ChatHub : Hub     {
         public async Task SendMessage(string user, string message)
+        //public override async Task OnConnectedAsync()
         // sendMessage method invoked by client to send msg to all clients
         // SignalR is asynchronous to provide max stability
         {
             await Clients.All.SendAsync("ReceiveMessage", user, message);
+            //await Clients.All.SendAsync("ReceiveMessage", $"{Context.ConnectionId} joined");
         }
     }
 }
